@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">صفحة تسجيل الدخول</string>
+    <string name="password">كلمة السر</string>
+    <string name="user_name">إسم المستخدم</string>
+    <string name="login_btn">تسجيل الدخول</string>
+    <string name="show_password">أظهر كلمة السر</string>
+    <string name="Forgot_Password">نسيت كلمة السر؟</string>
+</resources>

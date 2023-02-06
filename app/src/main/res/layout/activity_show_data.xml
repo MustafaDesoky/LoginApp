@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gon"
+    tools:context=".ShowData">
+
+   <TextView
+       android:id="@+id/user_statusTextView"
+       android:layout_width="0dp"
+       android:layout_height="55dp"
+       android:layout_marginStart="20dp"
+       android:layout_marginTop="10dp"
+       android:layout_marginEnd="20dp"
+       android:layout_marginBottom="10dp"
+       android:background="@drawable/input_bg"
+       android:padding="10dp"
+       android:text="Empty for now"
+       android:textAlignment="center"
+       android:textColor="@color/teal_200"
+       android:textColorLink="#00BCD4"
+       android:textSize="20sp"
+       android:textStyle="bold"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="1.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.166" />
+
+   <TextView
+       android:id="@+id/current_balance"
+       android:layout_width="0dp"
+       android:layout_height="55dp"
+       android:layout_marginTop="50dp"
+       android:background="@drawable/input_bg"
+       android:gravity="center"
+       android:padding="10dp"
+       android:text="Empty for now"
+       android:textColor="#00BCD4"
+       android:textColorLink="#00BCD4"
+       android:textSize="20sp"
+       android:textStyle="bold"
+       app:layout_constraintEnd_toEndOf="@+id/full_name"
+       app:layout_constraintHorizontal_bias="1.0"
+       app:layout_constraintStart_toStartOf="@+id/full_name"
+       app:layout_constraintTop_toBottomOf="@+id/full_name" />
+
+   <TextView
+       android:id="@+id/status_code"
+       android:layout_width="0dp"
+       android:layout_height="55dp"
+       android:layout_marginTop="50dp"
+       android:background="@drawable/input_bg"
+       android:gravity="center"
+       android:padding="10dp"
+       android:text="Empty for now"
+       android:textColor="#00BCD4"
+       android:textColorLink="#00BCD4"
+       android:textSize="20sp"
+       android:textStyle="bold"
+       app:layout_constraintEnd_toEndOf="@+id/status_description"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="@+id/status_description"
+       app:layout_constraintTop_toBottomOf="@+id/status_description" />
+
+   <TextView
+       android:id="@+id/full_name"
+       android:layout_width="0dp"
+       android:layout_height="55dp"
+       android:layout_marginTop="50dp"
+       android:background="@drawable/input_bg"
+       android:gravity="center"
+       android:padding="10dp"
+       android:text="Empty for now"
+       android:textColor="#00BCD4"
+       android:textColorLink="#00BCD4"
+       android:textSize="20sp"
+       android:textStyle="bold"
+       app:layout_constraintEnd_toEndOf="@+id/status_code"
+       app:layout_constraintHorizontal_bias="1.0"
+       app:layout_constraintStart_toStartOf="@+id/status_code"
+       app:layout_constraintTop_toBottomOf="@+id/status_code" />
+
+   <TextView
+       android:id="@+id/status_description"
+       android:layout_width="0dp"
+       android:layout_height="55dp"
+       android:layout_marginTop="50dp"
+       android:background="@drawable/input_bg"
+       android:gravity="center"
+       android:padding="10dp"
+       android:text="Empty for now"
+       android:textColor="#00BCD4"
+       android:textColorLink="#00BCD4"
+       android:textSize="20sp"
+       android:textStyle="bold"
+       app:layout_constraintEnd_toEndOf="@+id/user_statusTextView"
+       app:layout_constraintHorizontal_bias="1.0"
+       app:layout_constraintStart_toStartOf="@+id/user_statusTextView"
+       app:layout_constraintTop_toBottomOf="@+id/user_statusTextView" />
+
+   <TextView
+       android:id="@+id/lapel_user_status"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_margin="5dp"
+       android:layout_marginStart="20dp"
+       android:padding="8dp"
+       android:text="user_status"
+       android:textColor="#ED3B3B"
+       android:textSize="16sp"
+       android:textStyle="bold"
+       app:layout_constraintBottom_toTopOf="@+id/user_statusTextView"
+       app:layout_constraintStart_toStartOf="@+id/user_statusTextView" />
+
+   <TextView
+       android:id="@+id/lapel_status_description"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_margin="5dp"
+       android:layout_marginStart="20dp"
+       android:padding="8dp"
+       android:text="status_message"
+       android:textColor="#ED3B3B"
+       android:textSize="16sp"
+       android:textStyle="bold"
+       app:layout_constraintBottom_toTopOf="@+id/status_description"
+       app:layout_constraintStart_toStartOf="@+id/status_description" />
+
+   <TextView
+       android:id="@+id/lapel_status_code"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_margin="5dp"
+       android:layout_marginStart="20dp"
+       android:padding="8dp"
+       android:text="status_code"
+       android:textColor="#ED3B3B"
+       android:textSize="16sp"
+       android:textStyle="bold"
+       app:layout_constraintBottom_toTopOf="@+id/status_code"
+       app:layout_constraintStart_toStartOf="@+id/status_code" />
+
+   <TextView
+       android:id="@+id/lapel_full_name"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_margin="5dp"
+       android:layout_marginStart="20dp"
+       android:padding="8dp"
+       android:text="full_name"
+       android:textColor="#ED3B3B"
+       android:textSize="16sp"
+       android:textStyle="bold"
+       app:layout_constraintBottom_toTopOf="@+id/full_name"
+       app:layout_constraintStart_toStartOf="@+id/full_name" />
+
+   <TextView
+       android:id="@+id/lapel_current_balance"
+       android:layout_width="0dp"
+       android:layout_height="wrap_content"
+       android:layout_margin="5dp"
+       android:layout_marginStart="20dp"
+       android:padding="8dp"
+       android:text="current_balance"
+       android:textColor="#ED3B3B"
+       android:textSize="16sp"
+       android:textStyle="bold"
+       app:layout_constraintBottom_toTopOf="@+id/current_balance"
+       app:layout_constraintStart_toStartOf="@+id/current_balance" />
+
+   <TextView
+       android:id="@+id/main_lapel"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:padding="10dp"
+       android:text="User Infos.."
+       android:textColor="#0F100F"
+       android:textSize="22sp"
+       android:textStyle="bold"
+       app:layout_constraintBottom_toTopOf="@+id/user_statusTextView"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
